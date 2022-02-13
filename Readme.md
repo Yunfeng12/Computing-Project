@@ -11,6 +11,7 @@ In this case, I choose AWS [https://aws.amazon.com/] as my server. and then the 
 1. IPv4 Firewall. I suggest open all ports from 0 to 65334
 2. Start an editor, vi or whatever, and load the sshd config:
    > sudo vi /etc/ssh/sshd_config. 
+
 Allow root login and password authentication by commenting/uncommenting: 
   
 
