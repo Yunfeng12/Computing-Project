@@ -12,6 +12,8 @@ In this case, I choose AWS [https://aws.amazon.com/] as my server. and then the 
 2. Start an editor, vi or whatever, and load the sshd config. Allow root login and password authentication by commenting/uncommenting: 
    > sudo vi /etc/ssh/sshd_config.    PermitRootLogin yes  PasswordAuthentication yes
 
+## Installing Nginx
+
 
   
 
