@@ -5,7 +5,7 @@ To test PC Scanner that need three parts
 3. Installing PC Scanner
 
 
-#To set up two Linux
+### To set up two Linux
 First, prepare your Linux server* with a fresh install of CentOS, Ubuntu or Redhat, depends what you like.
 In this case, I choose AWS [https://aws.amazon.com/] as my server
 
