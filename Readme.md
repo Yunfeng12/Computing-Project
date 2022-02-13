@@ -4,7 +4,7 @@ The first part is to set up the environment
 The second part is to install our program
 
 
-> netstat -lntup|grep 0.0.0.0:%d|grep tcp | awk '{print $7}'| grep   -o  ^[0-9]*"%(port)
-
-`kkkkkk`
+#Quick start
+First, prepare your Linux server* with a fresh install of CentOS, Ubuntu or Redhat, depends what you like
+In this case, I choose AWS [https://aws.amazon.com/] as my server
 
