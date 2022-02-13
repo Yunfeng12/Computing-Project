@@ -1,8 +1,8 @@
 # Final Year Project/PC Scanner
 To test PC Scanner that need three parts
-1 To set up two Linux
-2 Installing Nginx
-3 Installing PC Scanner
+1. To set up two Linux
+2. Installing Nginx
+3. Installing PC Scanner
 
 
 #To set up two Linux
