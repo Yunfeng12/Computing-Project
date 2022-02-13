@@ -11,17 +11,10 @@ In this case, I choose AWS [https://aws.amazon.com/] as my server. and then the 
 1. IPv4 Firewall. I suggest open all ports from 0 to 65334
 2. Start an editor, vi or whatever, and load the sshd config. Allow root login and password authentication by commenting/uncommenting: 
    > sudo vi /etc/ssh/sshd_config. 
-   …
-PermitRootLogin yes
-# Only allow root to run commands over ssh, no shell
-#PermitRootLogin forced-commands-only
-…
-# To disable tunneled clear text passwords, change to no here!
-PasswordAuthentication yes
-#PermitEmptyPasswords no
-# EC2 uses keys for remote access
-#PasswordAuthentication no
-…
+     PermitRootLogin yes
+     PasswordAuthentication yes
+
+
 
   
 
