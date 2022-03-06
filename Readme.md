@@ -23,7 +23,21 @@ look at picture there are 6 Nignxs, we need to install it
 <img width="522" alt="image" src="https://user-images.githubusercontent.com/92934877/156922243-fbeecb03-2206-4ffa-96de-470836cd0094.png">
 
 ### Number 1
-Firstly, download the Nginx file from path Building-Nginx/nginx-1.16.1-1.el7.ngx.x86_64.rpm
+1. Firstly, download the Nginx file from path Building-Nginx/nginx-1.16.1-1.el7.ngx.x86_64.rpm, or download from the official nginx website
+2. Secondly, upload file to the linux via SCP or SSH
+3. and then type command to install it
+   > rpm -ivh  nginx-1.16.1-1.el7.ngx.x86_64.rpm
+4. running nginx by typing the command
+   > systemctl nginx start
+5. checking the nginx status
+   > systemctl nginx status
+6. checking the webpage of nginx via browser in personal computer
+   > http://IP:80
+the picture showing below meaning that nginx was successfully installed 
+<img width="390" alt="image" src="https://user-images.githubusercontent.com/92934877/156925052-c23cca42-8c65-403c-9055-53e857ad7471.png">
+
+  
+
 
 
 
