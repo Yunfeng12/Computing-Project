@@ -38,14 +38,38 @@ the picture showing below meaning that nginx was successfully installed
 
 <img width="390" alt="image" src="https://user-images.githubusercontent.com/92934877/156925052-c23cca42-8c65-403c-9055-53e857ad7471.png">
 
-  
-
-
-
-
 ### Number 2
-
+  
 ### Number 3
+1. Firstly, download the Nginx file from path Building-Nginx/nginx-1.16.1-1.el7.ngx.x86_64.rpm, or download from the official nginx website
+2. Secondly, upload file to the linux via SCP or SSH
+3. extract it 
+   > tar  -zxvf   nginx-1.16.1.tar.gz
+4. Install compilation tools and library files, and PCRE
+   >yum -y install make wget zlib zlib-devel gcc-c++ libtool  openssl openssl-devel
+   >wget http://downloads.sourceforge.net/project/pcre/pcre/8.35/pcre-8.35.tar.gz
+   >tar zxvf pcre-8.35.tar.gz
+   > cd pcre-8.35
+   >  ./configure
+   >  make && make install
+5. and then intall nginx and config it
+   > cd nginx-1.16.1
+   > ./configure --prefix=/usr/local/nginx-port-103
+   > make && make install
+6. from now, nginx 3 have be installed, and then need change the default listen port from 80 to 101
+   >cd /usr/local/nginx-port-101/conf
+   >vi nginx.conf
+ 
+   <img width="307" alt="image" src="https://user-images.githubusercontent.com/92934877/156926404-ef9b244b-b2c7-4063-a795-4c47add4d6b3.png">
+7. checking the webpage of nginx via browser in personal computer
+   >http://52.221.235.236:101/
+
+
+ 
+
+
+
+
 
 ### Number 4
 
