@@ -8,7 +8,7 @@ To test PC Scanner that need three parts
 
 
 
-## To set up two Linux
+## 1 To set up two Linux
 First, prepare your Linux server* with a fresh install of CentOS, Ubuntu or Redhat, depends what you like.
 In this case, I choose AWS [https://aws.amazon.com/] as my server. and then the few tings have to do 
 1. IPv4 Firewall. I suggest open all ports from 0 to 65334
@@ -17,7 +17,7 @@ In this case, I choose AWS [https://aws.amazon.com/] as my server. and then the 
 2. Start an editor, vi or whatever, and load the sshd config. Allow root login and password authentication by commenting/uncommenting: 
    > sudo vi /etc/ssh/sshd_config.    PermitRootLogin yes  PasswordAuthentication yes
 
-## Installing Nginx
+## 2 Installing Nginx
 look at picture there are 6 Nignxs, we need to install it
 
 <img width="522" alt="image" src="https://user-images.githubusercontent.com/92934877/156922243-fbeecb03-2206-4ffa-96de-470836cd0094.png">
@@ -110,7 +110,7 @@ Number 5 is same as Number, but modified nginx.h by removing the name nginx on t
 Number 6 is to remove the bath server name and version, is same as number 4 and number 5. the port is 103
 
 
-## Installing PC Scanner and Nmap
+## 3 Installing PC Scanner and Nmap
 
 ###Nmap
 For Nmap, it is very easy to install it by typing the linux command, or download from the official Nmap website. or download from the path "PCscanner and Nmap/nmap-7.92-1.x86_64.rpm"
@@ -123,13 +123,13 @@ For Nmap, it is very easy to install it by typing the linux command, or download
   > pip install regex, python-Nmap, pandas, Paramiko
 3. and then copy program PCscannerfrom the path "PCscanner and Nmap/PCscanner.py" to the Linux where Nmap installed here
 
-## Running Nmap
+## 4 Running Nmap
 typing the command, 80-100 menaing the port range, you can change it depend on you, if you want to scan ports from 0 to 65535 and just no write anything. 52.221.235.236 is traget IP
 >nmap   -sV    -p  80-110  52.221.235.236
 
 after a few minutes, will showing the result of scanning
 
-## Running PCscanner
+## 5 Running PCscanner
 1.Running PCscanner vy typing the command 
  >python3/python PCscanner.py
 2. after a few second, there will showing you need to import IP and password of root account. importing it
