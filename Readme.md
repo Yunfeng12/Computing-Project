@@ -113,14 +113,15 @@ Number 6 is to remove the bath server name and version, is same as number 4 and 
 ## Installing PC Scanner and Nmap
 
 ###Nmap
-For Nmap, it is very easy to install it by typing the linux command, or download from the official Nmap website
+For Nmap, it is very easy to install it by typing the linux command, or download from the official Nmap website. or download from the path Installing-PCScanner/nmap-7.92-1.x86_64.rpm
+
 >yum install nmap
 
 ###PCscanner
 1. install python, I suggest downlaod python file from official python website. only require python 3, any sub-version are ok
 2. after install python, and installing some necessary libraries regex, python-Nmap, pandas, Paramiko
   > pip install regex, python-Nmap, pandas, Paramiko
-3. and then copy program PCscanner to the Linux where Nmap installed here
+3. and then copy program PCscannerfrom the path Installing-PCScanner/PCScanner.py to the Linux where Nmap installed here
 
 ## Running Nmap
 
