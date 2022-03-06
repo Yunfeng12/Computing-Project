@@ -39,9 +39,22 @@ the picture showing below meaning that nginx was successfully installed
 <img width="390" alt="image" src="https://user-images.githubusercontent.com/92934877/156925052-c23cca42-8c65-403c-9055-53e857ad7471.png">
 
 ### Number 2
-  
+1. Firstly, download the Nginx file from path Building-Nginx/nginx-portable-11.zip
+2. Secondly, upload file to the linux via SCP or SSH
+3. extract it 
+  > unzip  nginx-portable-11.zip
+4. change the default port from 80 to 100 and runing it
+  >cd nginx/conf
+  >vi nginx.conf
+  >
+<img width="278" alt="image" src="https://user-images.githubusercontent.com/92934877/156927028-e628afec-3cd1-47e4-adcd-ffeee873ffad.png">
+  >cd nginx/sbin
+  >./nginx
+5. checking the webpage of nginx via browser in personal computer
+   >http://52.221.235.236:100/
+
 ### Number 3
-1. Firstly, download the Nginx file from path Building-Nginx/nginx-1.16.1-1.el7.ngx.x86_64.rpm, or download from the official nginx website
+1. Firstly, download the Nginx file from path Building-Nginx/nginx-1.16.1.tar.gz, or download from the official nginx website
 2. Secondly, upload file to the linux via SCP or SSH
 3. extract it 
    > tar  -zxvf   nginx-1.16.1.tar.gz
