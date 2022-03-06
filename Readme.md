@@ -35,6 +35,7 @@ look at picture there are 6 Nignxs, we need to install it
    > http://52.221.235.236:80
 
 the picture showing below meaning that nginx was successfully installed 
+
 <img width="390" alt="image" src="https://user-images.githubusercontent.com/92934877/156925052-c23cca42-8c65-403c-9055-53e857ad7471.png">
 
   
