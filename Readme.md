@@ -18,16 +18,17 @@ In this case, I choose AWS [https://aws.amazon.com/] as my server. and then the 
    > sudo vi /etc/ssh/sshd_config.    PermitRootLogin yes  PasswordAuthentication yes
 
 ## Installing Nginx
+look at picture there are 6 Nignx, we need to install it
 
 
 
 
-##Installing PC Scanner and Nmap
+## Installing PC Scanner and Nmap
 
 
-##Running Nmap
+## Running Nmap
 
-##Running PCscanner
+## Running PCscanner
 
 
   
