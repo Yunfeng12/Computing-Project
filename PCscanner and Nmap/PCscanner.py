@@ -11,12 +11,12 @@ import re
 #username is Linux account
 #the password of root is for login via the ssh
 
-#targeting_host = input('Please typing the targeting host IP that you want to scan:')
-host = '52.221.235.236'
+host = input('Please typing the targeting host IP that you want to scan:')
+#host = '52.221.235.236'
 port = 22
 username = "root"
-password = "Test@test4321"
-#password = input('Please typing the password of root account of the targeting host:')
+#password = "Test@test4321"
+password = input('Please typing the password of root account of the targeting host:')
 
 
 #the nmap_scan that will scan the targetiing host and discover active ports exposed to oudside. and then produce a dic of port.
