@@ -85,10 +85,22 @@ the picture showing below meaning that nginx was successfully installed
 
 
 ### Number 4
+Number 4，Same as number 3, but the only difference is that after unpacking and before compiling, you need to remove the nginx version in the nginx.h file and the line is "#define NGINX_VERSION".  until the compilation is complete, then go back and modify the nginx.conf file and change the port from 80 to103
+ >tar  -zxvf   nginx-1.16.1.tar.gz
+ >cd nginx-1.16.1/src/core
+ >vi nginx.h
+ 
+ <img width="365" alt="image" src="https://user-images.githubusercontent.com/92934877/156927209-1567161e-2d30-4217-b6e3-9075c6e05e86.png">
+
+after that the all steps are same as Number 3
 
 ### Number 5
+Number 5 is same as Number, but modified nginx.h by removing the name nginx on the line #define NGINX_VAR and #define NGINX_VER
 
 ### Number 6
+Number 5 is to remove the bath server name and version, is same as number 4 and number 5.
+
+
 ## Installing PC Scanner and Nmap
 
 
