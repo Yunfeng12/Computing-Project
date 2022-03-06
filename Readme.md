@@ -14,7 +14,7 @@ In this case, I choose AWS [https://aws.amazon.com/] as my server. and then the 
 1. IPv4 Firewall. I suggest open all ports from 0 to 65334
 <img width="555" alt="image" src="https://user-images.githubusercontent.com/92934877/156922076-4afd09bc-b422-4148-96ad-4564276274f5.png">
 
-3. Start an editor, vi or whatever, and load the sshd config. Allow root login and password authentication by commenting/uncommenting: 
+2. Start an editor, vi or whatever, and load the sshd config. Allow root login and password authentication by commenting/uncommenting: 
    > sudo vi /etc/ssh/sshd_config.    PermitRootLogin yes  PasswordAuthentication yes
 
 ## Installing Nginx
