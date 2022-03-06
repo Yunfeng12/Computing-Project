@@ -26,6 +26,7 @@ look at picture there are 6 Nignxs, we need to install it
 
 
 
+
 ### Number 2
 
 ### Number 3
