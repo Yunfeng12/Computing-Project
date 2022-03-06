@@ -19,6 +19,7 @@ In this case, I choose AWS [https://aws.amazon.com/] as my server. and then the 
 
 ## Installing Nginx
 look at picture there are 6 Nignx, we need to install it
+
 <img width="522" alt="image" src="https://user-images.githubusercontent.com/92934877/156922243-fbeecb03-2206-4ffa-96de-470836cd0094.png">
 
 
