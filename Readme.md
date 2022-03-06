@@ -46,8 +46,9 @@ the picture showing below meaning that nginx was successfully installed
 4. change the default port from 80 to 100 and runing it
   >cd nginx/conf
   >vi nginx.conf
-  >
+  
 <img width="278" alt="image" src="https://user-images.githubusercontent.com/92934877/156927028-e628afec-3cd1-47e4-adcd-ffeee873ffad.png">
+
   >cd nginx/sbin
   >./nginx
 5. checking the webpage of nginx via browser in personal computer
@@ -74,6 +75,7 @@ the picture showing below meaning that nginx was successfully installed
    >vi nginx.conf
  
    <img width="307" alt="image" src="https://user-images.githubusercontent.com/92934877/156926404-ef9b244b-b2c7-4063-a795-4c47add4d6b3.png">
+   
 7. checking the webpage of nginx via browser in personal computer
    >http://52.221.235.236:101/
 
@@ -98,7 +100,7 @@ after that the all steps are same as Number 3
 Number 5 is same as Number, but modified nginx.h by removing the name nginx on the line #define NGINX_VAR and #define NGINX_VER
 
 ### Number 6
-Number 5 is to remove the bath server name and version, is same as number 4 and number 5.
+Number 6 is to remove the bath server name and version, is same as number 4 and number 5.
 
 
 ## Installing PC Scanner and Nmap
