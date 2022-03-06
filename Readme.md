@@ -2,7 +2,10 @@
 To test PC Scanner that need three parts
 1. To set up two Linux
 2. Installing Nginx
-3. Installing PC Scanner
+3. Installing PC Scanner and Nmap
+4. Running Nmap
+5.	Running PCscanner
+
 
 
 ## To set up two Linux
@@ -13,6 +16,16 @@ In this case, I choose AWS [https://aws.amazon.com/] as my server. and then the 
    > sudo vi /etc/ssh/sshd_config.    PermitRootLogin yes  PasswordAuthentication yes
 
 ## Installing Nginx
+
+
+
+
+##Installing PC Scanner and Nmap
+
+
+##Running Nmap
+
+##Running PCscanner
 
 
   
